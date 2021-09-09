@@ -1,0 +1,18 @@
+{
+  "name": "Groverz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./src/styles.css -o ./public/styles.css",
+    "prod": "NODE_ENV=production postcss ./src/styles.css -o ./public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.14"
+  }
+}
